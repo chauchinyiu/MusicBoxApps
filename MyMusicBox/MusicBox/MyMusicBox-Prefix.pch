@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'MusicBox' target in the 'MusicBox' project
+//
+
+#import <Availability.h>
+ 
+#define MusicBoxAppDelegate (AppDelegate *)[[UIApplication sharedApplication] delegate]
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "MusicBoxConstants.h"
+    #import "ChristmasSongsConstants.h"
+    #import "ClassicalSongsConstants.h"
+    #import "CarnivalSongsConstants.h"
+    #import "ValentineSongsConstants.h"
+
+#endif

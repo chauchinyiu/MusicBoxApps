@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  MusicBox
+
+  Created by Ming Kei Wong on 13年7月11日.
+  Copyright (c) 2013年 Chau Chin Yiu. All rights reserved.
+*/
+
+/* Displayed when message bar is empty */
+"EMPTY_MESSAGE" = "Tap to write your words";
+
+/* Displayed when no photo is selected */
+"NO_PHOTO" = "Tap to add photos";
+
+/* Ask the user to select a transition style */
+"SELECT_TRANSITION" = "Please select a transition style";
+
+/* Instruction steps */
+"INSTRUCTION_0" = "Turn the wheel to play the music";
+"INSTRUCTION_1" = "Press to autoplay music";
+"INSTRUCTION_2" = "Tap to add 3 of your favorite photos";
+"INSTRUCTION_3" = "Tap to write some message here";
+"INSTRUCTION_4" = "Click here to choose your song";
+"INSTRUCTION_5" = "Tap to record the video";
+"INSTRUCTION_6" = "Start Recording Now...";
+"INSTRUCTION_7" = "Play the video";
+"INSTRUCTION_8" = "Choose your favorite theme";
+
+/* Buttons */
+"SONGS_BTN" = "Songs";
+"COLLECTION_BTN" = "Collection";
+"BACK_BTN" = "Back";
+"MORE_BTN" = "More";
+
+/* More Menu */ 
+"RATE_APP" = "Rate/Comments the App";
+"SHARE_APP" = "Share the App";
+"RESET_INSTRUCTION" = "Restart guideline";
+
+/* Photo Picker */
+"DONE_BTN" = "Done";
+"CLEAR_BTN" = "Reset";
+"CANCEL_BTN" = "Cancel";
+
+
+/* Theme */
+"CARNIVAL_THEME_NAME" = "Celebration";
+
+"BIRTHDAY_SONG_NAME" = "Birthday song (Trad. Chi.)";
+"FOR_HE_IS_A_JOLLY_GOOD_FELLOW_NAME" = "For He is a Jolly Good Fellow";
+"GRADUATION_MARCH_NAME" = "Graduation March";
+"KISS_MAMA_KISS_PAPA_NAME" = "Kiss Mama Kiss Papa";
+"LIFE_LET_US_CHERISH_NAME" = "Life Let Us Cherish";
+"AULD_LANG_SYNE_NAME" = "Auld Lang Syne (Friendship)";
+
+
+"VALENTINE_THEME_NAME" = "Valentine";
+
+"CANON_IN_D_NAME" = "Canon In D Major";
+"BEAUTIFUL_DREAMER_NAME" = "Beautiful Dreamer";
+"LET_ME_CALL_YOU_SWEETHEART_NAME" = "Let me call you sweetheart";
+"FUR_ELISE_NAME" = "Für Elise";
+"NOLA_NAME" = "Nola";
+"WEDDING_MARCH_NAME" = "Wedding March";

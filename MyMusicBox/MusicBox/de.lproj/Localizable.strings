@@ -1,0 +1,78 @@
+/* 
+  Localizable.strings
+  MusicBox
+
+  Created by Ming Kei Wong on 13年7月11日.
+  Copyright (c) 2013年 Chau Chin Yiu. All rights reserved.
+*/
+
+/* Displayed when message bar is empty */
+"EMPTY_MESSAGE" = "Tippe deine Worte ein!";
+
+/* Displayed when no photo is selected */
+"NO_PHOTO" = "Tippe ein, um deine Fotos aufzuladen!";
+
+/* Ask the user to select a transition style */
+"SELECT_TRANSITION" = "Bitte wähle einen Übergangsstil!";
+
+/* Instruction steps */
+"INSTRUCTION_0" = "Dreh das Rad, um die Musik zu spielen";
+"INSTRUCTION_1" = "Bitte drücken, um Musik selbst spielen zu lassen!";
+"INSTRUCTION_2" = "Bitte tippen, um 3 deiner Lieblingsfotos hinzuzufügen!";
+"INSTRUCTION_3" = "Hier drücken, um eine Nachricht zu schreiben!";
+"INSTRUCTION_4" = "Bitte hier klicken, um dein Lied zu wählen!";
+"INSTRUCTION_5" = "Bitte drücken, um das Video aufzunehmen!";
+"INSTRUCTION_6" = "Fang jetzt mit der Aufzeichnung an!";
+"INSTRUCTION_7" = "Jetzt das Video spielen!";
+"INSTRUCTION_8" = "Wähle dein Lieblings-Thema!";
+
+/* Buttons */
+"SONGS_BTN" = "Lieder";
+"COLLECTION_BTN" = "Themen";
+"BACK_BTN" = "Zurück";
+"MORE_BTN" = "Mehr";
+
+/* More Menu */
+"RATE_APP" = "Rate/ Kommentar zur App";
+"SHARE_APP" = "Teile die App";
+"RESET_INSTRUCTION" = "Restarte die Leitlinie";
+
+/* Photo Picker */
+"DONE_BTN" = "Fertig!";
+"CLEAR_BTN" = "Zurücksetzen";
+"CANCEL_BTN" = "Abbrechen";
+
+/* Theme */
+"CARNIVAL_THEME_NAME" = "Feier!";
+/*
+"BIRTHDAY_SONG_NAME" = "Geburtstags-Lied (Trad. chi.)";
+"FOR_HE_IS_A_JOLLY_GOOD_FELLOW_NAME" = "For He is a Jolly Good Fellow";
+"GRADUATION_MARCH_NAME" = "Abschlussprüfungs-Marsch";
+"KISS_MAMA_KISS_PAPA_NAME" = "Küss die Mama, küss den Papa";
+"LIFE_LET_US_CHERISH_NAME" = "Lass uns das Leben pflegen";
+"AULD_LANG_SYNE_NAME" = "Längst vergangene Zeit";
+*/
+"BIRTHDAY_SONG_NAME" = "Geburtstags-Lied (Trad. chi.)";
+"FOR_HE_IS_A_JOLLY_GOOD_FELLOW_NAME" = "For He is a Jolly Good Fellow";
+"GRADUATION_MARCH_NAME" = "Graduation March";
+"KISS_MAMA_KISS_PAPA_NAME" = "Kiss Mama Kiss Papa";
+"LIFE_LET_US_CHERISH_NAME" = "Life Let Us Cherish";
+"AULD_LANG_SYNE_NAME" = "Auld Lang Syne (Friendship)";
+
+
+"VALENTINE_THEME_NAME" = "Valentin";
+/*
+"CANON_IN_D_NAME" = "Canon In D-Dur";
+"BEAUTIFUL_DREAMER_NAME" = "Schöner Träumer";
+"LET_ME_CALL_YOU_SWEETHEART_NAME" = "Lass mich dich Liebling nennen";
+"FUR_ELISE_NAME" = "Für Elise";
+"NOLA_NAME" = "Nola";
+"WEDDING_MARCH_NAME" = "Hochzeitsmarsch";
+*/
+
+"CANON_IN_D_NAME" = "Canon In D Major";
+"BEAUTIFUL_DREAMER_NAME" = "Beautiful Dreamer";
+"LET_ME_CALL_YOU_SWEETHEART_NAME" = "Let me call you sweetheart";
+"FUR_ELISE_NAME" = "Für Elise";
+"NOLA_NAME" = "Nola";
+"WEDDING_MARCH_NAME" = "Wedding March";

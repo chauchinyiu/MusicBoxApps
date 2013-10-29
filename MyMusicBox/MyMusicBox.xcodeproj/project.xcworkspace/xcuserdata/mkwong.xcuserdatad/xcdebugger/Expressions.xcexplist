@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__41-[WSAssetTableViewController fetchAssets]_block_invoke_2:WSAssetTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[self.assetPickerState.preSelectedPhotos objectAtIndex:i]">
+            </PersistentString>
+            <PersistentString
+               value = "self.assetPickerState.preSelectedPhotos">
+            </PersistentString>
+            <PersistentString
+               value = "result.defaultRepresentation.UTI">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AniShadow updateMessage:isDefault:]:AniShadow.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
