@@ -217,7 +217,8 @@ static MusicBoxViewController *sharedObject;
     
     am = [[AnimationManager alloc]init];
     int loadSong = [defaults integerForKey:@"user_Song"];
-    [self changeThemeTo:[defaults integerForKey:@"user_Theme"]];
+    int x = [defaults integerForKey:@"user_Theme"];
+    [self changeThemeTo:x];
     [self changeSong:loadSong];
     
     [am changeThemeTo:[defaults integerForKey:@"user_Theme"] ThemeName:_currentThemeTitle];
@@ -296,7 +297,6 @@ static MusicBoxViewController *sharedObject;
         [aDisplayLink setFrameInterval:animationFrameInterval];
         [aDisplayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
         self.displayLink = aDisplayLink;
-        
         animating = TRUE;
         lastRenderTime = CACurrentMediaTime();
     }
@@ -535,6 +535,7 @@ static MusicBoxViewController *sharedObject;
     
     [[ThemeManager sharedInstance] changeToTheme:theme withDelegate:self];
     _currentThemeTitle = NSLocalizedString(@"VALENTINE_THEME_NAME", @"valentine theme name");
+    
     if(theme == CLASSIC){
         _currentThemeTitle = @"Classic";
     }else if(theme == CARNIVAL){

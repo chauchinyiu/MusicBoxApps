@@ -52,7 +52,7 @@
 "KISS_MAMA_KISS_PAPA_NAME" = "Kiss Mama Kiss Papa";
 "LIFE_LET_US_CHERISH_NAME" = "Life Let Us Cherish";
 "AULD_LANG_SYNE_NAME" = "Auld Lang Syne (Friendship)";
-
+ 
 
 "VALENTINE_THEME_NAME" = "Valentine";
 
@@ -62,3 +62,11 @@
 "FUR_ELISE_NAME" = "Für Elise";
 "NOLA_NAME" = "Nola";
 "WEDDING_MARCH_NAME" = "Wedding March";
+
+"CHRISTMAS_THEME_NAME" = "Christmas";
+"SILENT_NIGHT_NAME"= "Silent Night";
+"HARK_THE_HERALD_ANGELS_SING_NAME" ="Hark! The Herald Angels Sing";
+"JOY_TO_THE_WORLD_NAME"="Joy to the world";
+"JINGLE_BELLS_NAME" ="Jingle Bells";
+"THE_TWELVE_DAYS_OF_CHRISTMAS_NAME"="The 12 days of christmas";
+"THE_FIRST_NOEL_NAME"="The First Noël";

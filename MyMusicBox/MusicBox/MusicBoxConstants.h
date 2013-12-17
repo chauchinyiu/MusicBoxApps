@@ -17,8 +17,8 @@
 #define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
 typedef enum  {
-    VALENTINE,
     CHRISTMAS,
+    VALENTINE,
     CLASSIC,
     CARNIVAL
 } MusicBoxThemeType;

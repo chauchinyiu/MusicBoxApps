@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9EB396A0-86EF-4531-8C6A-7FD7BA474E0B</string>
+	<string>B6FA5C5B-820D-423A-A3BF-113CBD706AF3</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MyMusicBox</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>30565B2C-D39A-42FB-855C-175658C27525</key>
-		<string>https://github.com/chauchinyiu/MyMusicBox.git</string>
+		<key>ED840772-9ACA-4730-8D86-1AA55A3B60E0</key>
+		<string>https://github.com/chauchinyiu/MusicBoxApps.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MyMusicBox.xcodeproj/project.xcworkspace</string>
+	<string>MyMusicBox/MyMusicBox.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>30565B2C-D39A-42FB-855C-175658C27525</key>
-		<string>../..</string>
+		<key>ED840772-9ACA-4730-8D86-1AA55A3B60E0</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/chauchinyiu/MyMusicBox.git</string>
+	<string>https://github.com/chauchinyiu/MusicBoxApps.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>30565B2C-D39A-42FB-855C-175658C27525</string>
+	<string>ED840772-9ACA-4730-8D86-1AA55A3B60E0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>30565B2C-D39A-42FB-855C-175658C27525</string>
+			<string>ED840772-9ACA-4730-8D86-1AA55A3B60E0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MyMusicBox</string>
+			<string>MusicBoxApps</string>
 		</dict>
 	</array>
 </dict>

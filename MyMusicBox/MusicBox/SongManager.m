@@ -36,12 +36,12 @@ static SongManager *sharedObject;
     if(_songNamesDict == nil){
         _songNamesDict = [[NSMutableDictionary alloc] init];
         //Christmas
-        [_songNamesDict setObject:SILENT_NIGHT_NAME forKey:SILENT_NIGHT_KEY];
-        [_songNamesDict setObject:HARK_THE_HERALD_ANGELS_SING_NAME forKey:HARK_THE_HERALD_ANGELS_SING_KEY];
-        [_songNamesDict setObject:JOY_TO_THE_WORLD_NAME forKey:JOY_TO_THE_WORLD_KEY];
-        [_songNamesDict setObject:JINGLE_BELLS_NAME forKey:JINGLE_BELLS_KEY];
-        [_songNamesDict setObject:THE_TWELVE_DAYS_OF_CHRISTMAS_NAME forKey:THE_TWELVE_DAYS_OF_CHRISTMAS_KEY];
-        [_songNamesDict setObject:THE_FIRST_NOEL_NAME forKey:THE_FIRST_NOEL_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"SILENT_NIGHT_NAME",@"SILENT_NIGHT_NAME") forKey:SILENT_NIGHT_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"HARK_THE_HERALD_ANGELS_SING_NAME",@"HARK_THE_HERALD_ANGELS_SING_NAME") forKey:HARK_THE_HERALD_ANGELS_SING_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"JOY_TO_THE_WORLD_NAME",@"JOY_TO_THE_WORLD_NAME") forKey:JOY_TO_THE_WORLD_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"JINGLE_BELLS_NAME",@"JINGLE_BELLS_NAME") forKey:JINGLE_BELLS_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"THE_TWELVE_DAYS_OF_CHRISTMAS_NAME",@"THE_TWELVE_DAYS_OF_CHRISTMAS_NAME") forKey:THE_TWELVE_DAYS_OF_CHRISTMAS_KEY];
+        [_songNamesDict setObject:NSLocalizedString(@"THE_FIRST_NOEL_NAME",@"THE_FIRST_NOEL_NAME") forKey:THE_FIRST_NOEL_KEY];
         //Old Streets
         [_songNamesDict setObject:BRAHMS_LULLABY_NAME forKey:BRAHMS_LULLABY_KEY];
         [_songNamesDict setObject:THE_FOUR_SEASONS_NAME forKey:THE_FOUR_SEASONS_KEY];

@@ -44,14 +44,7 @@
 
 /* Theme */
 "CARNIVAL_THEME_NAME" = "Feier!";
-/*
-"BIRTHDAY_SONG_NAME" = "Geburtstags-Lied (Trad. chi.)";
-"FOR_HE_IS_A_JOLLY_GOOD_FELLOW_NAME" = "For He is a Jolly Good Fellow";
-"GRADUATION_MARCH_NAME" = "Abschlussprüfungs-Marsch";
-"KISS_MAMA_KISS_PAPA_NAME" = "Küss die Mama, küss den Papa";
-"LIFE_LET_US_CHERISH_NAME" = "Lass uns das Leben pflegen";
-"AULD_LANG_SYNE_NAME" = "Längst vergangene Zeit";
-*/
+
 "BIRTHDAY_SONG_NAME" = "Geburtstags-Lied (Trad. chi.)";
 "FOR_HE_IS_A_JOLLY_GOOD_FELLOW_NAME" = "For He is a Jolly Good Fellow";
 "GRADUATION_MARCH_NAME" = "Graduation March";
@@ -59,8 +52,16 @@
 "LIFE_LET_US_CHERISH_NAME" = "Life Let Us Cherish";
 "AULD_LANG_SYNE_NAME" = "Auld Lang Syne (Friendship)";
 
+"CHRISTMAS_THEME_NAME" = "Weihnachten";
+"SILENT_NIGHT_NAME"= "Stille Nacht";
+"HARK_THE_HERALD_ANGELS_SING_NAME" ="Hört die Engel hört sie singen";
+"JOY_TO_THE_WORLD_NAME"="Freue dich Welt";
+"JINGLE_BELLS_NAME" ="Jingle Bells";
+"THE_TWELVE_DAYS_OF_CHRISTMAS_NAME"="Die Zwölf Weihnachtstage";
+"THE_FIRST_NOEL_NAME"="Das erste Weihnachtsfest";
 
 "VALENTINE_THEME_NAME" = "Valentin";
+
 /*
 "CANON_IN_D_NAME" = "Canon In D-Dur";
 "BEAUTIFUL_DREAMER_NAME" = "Schöner Träumer";

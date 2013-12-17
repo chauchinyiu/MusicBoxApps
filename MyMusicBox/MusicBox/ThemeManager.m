@@ -26,6 +26,7 @@ static ThemeManager *sharedObject;
 
 
 -(void) changeToTheme:(MusicBoxThemeType) themetype withDelegate:(id) indelgate{
+ 
     self.delegate = indelgate;
     if(themetype == CLASSIC){
         _currentType = CLASSIC;
@@ -33,7 +34,7 @@ static ThemeManager *sharedObject;
         _currentType = CARNIVAL;
     }else if(themetype == CHRISTMAS){
         _currentType = CHRISTMAS;
-    }else {
+    }else if(themetype == VALENTINE){
         _currentType = VALENTINE;
     }
     
@@ -64,8 +65,9 @@ static ThemeManager *sharedObject;
 
 -(NSArray *) getArrayOfThemes{
     return [[NSMutableArray alloc] initWithObjects:
+             [NSNumber numberWithInt:CHRISTMAS],
             [NSNumber numberWithInt:VALENTINE],
-            [NSNumber numberWithInt:CARNIVAL],
+            [NSNumber numberWithInt:CARNIVAL] ,
             nil];
 
 }

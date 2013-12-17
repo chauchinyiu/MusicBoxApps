@@ -10,12 +10,12 @@
 
 @implementation CollectionTableViewCell
 @synthesize priceText = _priceText;
-@synthesize songText1 = _songText1;
-@synthesize songText2 = _songText2;
-@synthesize songText3 = _songText3;
-@synthesize songText4 = _songText4;
-@synthesize songText5 = _songText5;
-@synthesize songText6 = _songText6;
+//@synthesize songText1 = _songText1;
+//@synthesize songText2 = _songText2;
+//@synthesize songText3 = _songText3;
+//@synthesize songText4 = _songText4;
+//@synthesize songText5 = _songText5;
+//@synthesize songText6 = _songText6;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -60,6 +60,7 @@
     if(IS_IPHONE_5){
         offset = 44.0f;
     }
+    
     UILabel* tmpLabel = [[UILabel alloc] initWithFrame:CGRectMake(240+offset, 28 + i * 18, 180, 20)];
     tmpLabel.text = [NSString stringWithFormat:@"%d. %@", i + 1, text];
     tmpLabel.textColor = [UIColor colorWithRed:59.0f/256.0f
@@ -74,29 +75,29 @@
     tmpLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:tmpLabel];
     
-    switch (i) {
-        case 0:
-            _songText1 = tmpLabel;
-            break;
-        case 1:
-            _songText2 = tmpLabel;
-            break;
-        case 2:
-            _songText3 = tmpLabel;
-            break;
-        case 3:
-            _songText4 = tmpLabel;
-            break;
-        case 4:
-            _songText5 = tmpLabel;
-            break;
-        case 5:
-            _songText6 = tmpLabel;
-            break;
-            
-        default:
-            break;
-    }
+//    switch (i) {
+//        case 0:
+//            self.songText1 = tmpLabel;
+//            break;
+//        case 1:
+//            self.songText2 = tmpLabel;
+//            break;
+//        case 2:
+//            self.songText3 = tmpLabel;
+//            break;
+//        case 3:
+//            self.songText4 = tmpLabel;
+//            break;
+//        case 4:
+//            self.songText5 = tmpLabel;
+//            break;
+//        case 5:
+//            self.songText6 = tmpLabel;
+//            break;
+//            
+//        default:
+//            break;
+//    }
 }
 
 -(void) setTheme:(MusicBoxThemeType)theme{
