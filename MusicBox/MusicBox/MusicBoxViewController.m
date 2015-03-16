@@ -285,11 +285,11 @@ static MusicBoxViewController *sharedObject;
     CGRect collectionbtnFrame;
     CGRect recordmenuFrame;
     if([MusicBoxAppDelegate isIOS7]){
-        toolbarFrame = CGRectMake(0, 0, 120 , 33);
-        righttoolbarFrame =CGRectMake(0, 0, 200, 33);
-        songbtnFrame = CGRectMake(35, 5, 60, 24 );
-        collectionbtnFrame =CGRectMake(105, 5, 90,26);
-        recordmenuFrame = CGRectMake(0, 10, 30, 17);
+        toolbarFrame = CGRectMake(0, 0, 120 , 44);
+        righttoolbarFrame =CGRectMake(10, 0, 200, 44);
+        songbtnFrame = CGRectMake(35, 10, 60, 24 );
+        collectionbtnFrame =CGRectMake(105, 10, 90,26);
+        recordmenuFrame = CGRectMake(0, 15, 30, 17);
     }else{
         toolbarFrame =  CGRectMake(0, 0, 120 , 44);
         righttoolbarFrame =CGRectMake(0, 0, 200, 44);
@@ -333,81 +333,7 @@ static MusicBoxViewController *sharedObject;
 }
 
 
-//- (void) setNavigationItems{
-//    if([MusicBoxAppDelegate isIOS7]){
-//        toolbar =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, 120 , 33)];
-//        
-//        songsBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 5, 60, 24)];
-//        [self setButtonStyle:songsBtn];
-//       // [songsBtn setTitle:NSLocalizedString(@"SONGS_BTN", @"Songs") forState:UIControlStateNormal];
-//        [songsBtn setTitle:@"Songs"  forState:UIControlStateNormal];
-//        [songsBtn setBackgroundImage:[UIImage imageNamed:@"song_button"] forState:UIControlStateNormal];
-//        [songsBtn addTarget:self action:@selector(showSongList) forControlEvents:UIControlEventTouchUpInside];
-//        [toolbar addSubview:songsBtn];
-//        
-//        righttoolbar =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 33)];
-//        
-//        goToCollectionBtn = [[UIButton alloc] initWithFrame:CGRectMake(105, 5, 90,26)];
-//        [self setButtonStyle:goToCollectionBtn];
-////        [goToCollectionBtn setTitle:NSLocalizedString(@"COLLECTION_BTN", @"Collection") forState:UIControlStateNormal];
-//        [goToCollectionBtn setTitle:@"Collection"  forState:UIControlStateNormal];
-//        
-//        [goToCollectionBtn setBackgroundImage:[UIImage imageNamed:@"collection_btn"] forState:UIControlStateNormal];
-//        
-//        
-//        [goToCollectionBtn addTarget:self action:@selector(gotoCollectionView) forControlEvents:UIControlEventTouchUpInside];
-//        
-//        [righttoolbar addSubview:goToCollectionBtn];
-//        
-//        recordButton = [[UIButton alloc] initWithFrame:CGRectMake(55, 5, 55, 26)];
-//        [recordButton setImage:[UIImage imageNamed:@"rec"] forState:UIControlStateNormal];
-//        
-//        [recordButton addTarget:self action:@selector(recordButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-//        [toolbar addSubview:recordButton];
-//        
-//        UIBarButtonItem *rightBtn  = [[UIBarButtonItem alloc] initWithCustomView:righttoolbar];
-//        UIBarButtonItem *leftBtn  = [[UIBarButtonItem alloc] initWithCustomView:toolbar];
-//        self.navigationItem.rightBarButtonItem =  rightBtn;
-//        self.navigationItem.leftBarButtonItem =  leftBtn;
-//        
-//    }
-//    else{
-//        toolbar =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, 120 , 44)];
-//        
-//        songsBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 10, 60, 35)];
-//        [self setButtonStyle:songsBtn];
-//        [songsBtn setTitle:@"Songs"  forState:UIControlStateNormal];
-//        [songsBtn setBackgroundImage:[UIImage imageNamed:@"song_button"] forState:UIControlStateNormal];
-//        [songsBtn addTarget:self action:@selector(showSongList) forControlEvents:UIControlEventTouchUpInside];
-//        [toolbar addSubview:songsBtn];
-//        
-//        righttoolbar =  [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200 , 44)];
-//        
-//        goToCollectionBtn = [[UIButton alloc] initWithFrame:CGRectMake(105, 10, 90,35)];
-//        [self setButtonStyle:goToCollectionBtn];
-//        [goToCollectionBtn setTitle:@"Collection"  forState:UIControlStateNormal];
-//        
-//        [goToCollectionBtn setBackgroundImage:[UIImage imageNamed:@"collection_btn"] forState:UIControlStateNormal];
-//        
-//        
-//        [goToCollectionBtn addTarget:self action:@selector(gotoCollectionView) forControlEvents:UIControlEventTouchUpInside];
-//        
-//        [righttoolbar addSubview:goToCollectionBtn];
-//        
-//        recordButton = [[UIButton alloc] initWithFrame:CGRectMake(55, 10, 55, 35)];
-//        [recordButton setImage:[UIImage imageNamed:@"rec"] forState:UIControlStateNormal];
-//        
-//        [recordButton addTarget:self action:@selector(recordButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-//        [toolbar addSubview:recordButton];
-//        
-//        UIBarButtonItem *rightBtn  = [[UIBarButtonItem alloc] initWithCustomView:righttoolbar];
-//        UIBarButtonItem *leftBtn  = [[UIBarButtonItem alloc] initWithCustomView:toolbar];
-//        self.navigationItem.rightBarButtonItem =  rightBtn;
-//        self.navigationItem.leftBarButtonItem =  leftBtn;
-//        
-//        
-////    }
-//}
+
 - (void)setButtonStyle:(UIButton*) b{
     b.titleLabel.font = [UIFont fontWithName:@"TimesNewRomanPS-ItalicMT" size:(17.0)];
     [b setTitleColor: [UIColor colorWithRed:0.81 green:0.81 blue:0.81 alpha:1.0] forState:UIControlStateNormal];

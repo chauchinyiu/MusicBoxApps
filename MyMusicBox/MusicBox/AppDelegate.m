@@ -55,19 +55,19 @@ bool isIOS7Flag;
 }
 
 -(float) initialOffset{
-    if(IS_IPHONE_5){
+//    if(IS_IPHONE_5){
         return 26.0f;
-    }else{
-        return 0;
-    }
+//    }else{
+//        return 0;
+//    }
 }
 
 -(NSString *) fileExtension{
-    if(IS_IPHONE_5){
+//    if(IS_IPHONE_5){
         return @"-568h";
-    }else{
-        return @"";
-    }
+//    }else{
+//        return @"";
+//    }
 }
 
 -(bool) isIOS7{
@@ -103,28 +103,11 @@ bool isIOS7Flag;
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-- (void) drawNavigationBar{
-    UIImage *navigationLandscapeBackground;
-    CGRect frame ;
-    if (isIOS7Flag) {
-        if(IS_IPHONE_5){
-            navigationLandscapeBackground  = [UIImage imageNamed:@"navigationBarIOS7-568h.png"];
-            frame = CGRectMake(0, 0, 568, 32);
-        }else{
-            navigationLandscapeBackground  = [UIImage imageNamed:@"navigationBarIOS7"];
-            frame = CGRectMake(0, 0, 480, 32);
-        }
-    }
-    else{
-        if(IS_IPHONE_5){
-            navigationLandscapeBackground  = [UIImage imageNamed:@"navigationBar-568h.png"];
-            frame = CGRectMake(0, 0, 568, 44);
-        }else{
-            navigationLandscapeBackground  = [UIImage imageNamed:@"navigationBar"];
-            frame = CGRectMake(0, 0, 480, 44);
-        }
-    }
-    
+- (void) drawNavigationBar
+{
+
+    UIImage *navigationLandscapeBackground = [[UIImage imageNamed:@"navigationBarIOS7-568h.png"]
+                                              resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0) resizingMode:UIImageResizingModeStretch];
     [[UINavigationBar appearance] setBackgroundImage:navigationLandscapeBackground
                                        forBarMetrics:UIBarMetricsLandscapePhone];
      [[UINavigationBar appearance] setBackgroundImage:navigationLandscapeBackground                                        forBarMetrics:UIBarMetricsDefault];

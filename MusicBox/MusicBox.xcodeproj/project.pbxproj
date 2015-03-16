@@ -806,8 +806,8 @@
 				E5CD684817F10D7000656816 /* RNFrostedSidebar.h */,
 				E5CD684917F10D7000656816 /* RNFrostedSidebar.m */,
 				CEB1F73C172E629200CD09D6 /* Config.h */,
-				CEB1F73A172E626B00CD09D6 /* EAGLView.m */,
 				CEB1F739172E626200CD09D6 /* EAGLView.h */,
+				CEB1F73A172E626B00CD09D6 /* EAGLView.m */,
 				E561B91C16742A3100EDBE1C /* InAppPurchases */,
 				E5CE71991668AE9E00A52EFA /* Manager */,
 				E54116C31662ED2100188FE6 /* View Utilities */,
@@ -1353,10 +1353,11 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LINK_WITH_STANDARD_LIBRARIES = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "44F96396-E4D5-4A49-80ED-E2AA4F95995D";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1382,6 +1383,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -1407,6 +1409,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1433,6 +1436,7 @@
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

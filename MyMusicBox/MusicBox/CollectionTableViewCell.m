@@ -61,7 +61,7 @@
         offset = 44.0f;
     }
     
-    UILabel* tmpLabel = [[UILabel alloc] initWithFrame:CGRectMake(240+offset, 28 + i * 18, 180, 20)];
+    UILabel* tmpLabel = [[UILabel alloc] initWithFrame:CGRectMake(240+offset, 50 + i * 18, 180, 20)];
     tmpLabel.text = [NSString stringWithFormat:@"%d. %@", i + 1, text];
     tmpLabel.textColor = [UIColor colorWithRed:59.0f/256.0f
                                          green:34.0f/256.0f
@@ -74,30 +74,7 @@
     tmpLabel.minimumFontSize = 6.;
     tmpLabel.adjustsFontSizeToFitWidth = YES;
     [self addSubview:tmpLabel];
-    
-//    switch (i) {
-//        case 0:
-//            self.songText1 = tmpLabel;
-//            break;
-//        case 1:
-//            self.songText2 = tmpLabel;
-//            break;
-//        case 2:
-//            self.songText3 = tmpLabel;
-//            break;
-//        case 3:
-//            self.songText4 = tmpLabel;
-//            break;
-//        case 4:
-//            self.songText5 = tmpLabel;
-//            break;
-//        case 5:
-//            self.songText6 = tmpLabel;
-//            break;
-//            
-//        default:
-//            break;
-//    }
+
 }
 
 -(void) setTheme:(MusicBoxThemeType)theme{

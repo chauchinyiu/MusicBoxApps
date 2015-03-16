@@ -121,7 +121,7 @@
         NSString *themeName = [[ThemeManager sharedInstance] getThemeNameBy:key];
         NSString *imagename = [NSString stringWithFormat:@"%@_box_paper%@",themeName,[MusicBoxAppDelegate fileExtension]];
         if ([ThemeIAPHelper isInAppPurchaseProduct:key]) {
-            BOOL isPurchased = NO;
+            BOOL isPurchased = NO || DEBUG;
             for(int i=0; i<[_skuproducts count]; i++){
                 SKProduct *product = [_skuproducts objectAtIndex:i];
                 NSLog(@"%@ , key:: %@",[ThemeIAPHelper sharedHelper].purchasedProducts,product.productIdentifier);
@@ -165,7 +165,7 @@
     return formattedString;
 }
 -(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 180.0f;
+    return 230.0f;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -185,7 +185,7 @@
     }
     
     
-    if( [ThemeIAPHelper isInAppPurchaseProduct:key] && isBuying ){
+    if( [ThemeIAPHelper isInAppPurchaseProduct:key] && isBuying && !DEBUG ){
         
         SKProduct *product = [[ThemeIAPHelper sharedHelper] getSKProductByThemeType:key];
         if(product!=nil){

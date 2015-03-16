@@ -336,11 +336,11 @@ static MusicBoxViewController *sharedObject;
     CGRect collectionbtnFrame;
     CGRect recordmenuFrame;
     if([MusicBoxAppDelegate isIOS7]){
-        toolbarFrame = CGRectMake(0, 0, 120 , 33);
-        righttoolbarFrame =CGRectMake(0, 0, 200, 33);
-        songbtnFrame = CGRectMake(35, 5, 60, 24 );
-        collectionbtnFrame =CGRectMake(105, 5, 90,26);
-        recordmenuFrame = CGRectMake(0, 10, 30, 17);
+        toolbarFrame = CGRectMake(0, 0, 120 , 44);
+        righttoolbarFrame =CGRectMake(10, 0, 200, 44);
+        songbtnFrame = CGRectMake(35, 10, 60, 24 );
+        collectionbtnFrame =CGRectMake(105, 10, 90,26);
+        recordmenuFrame = CGRectMake(0, 15, 30, 17);
     }else{
         toolbarFrame =  CGRectMake(0, 0, 120 , 44);
         righttoolbarFrame =CGRectMake(0, 0, 200, 44);

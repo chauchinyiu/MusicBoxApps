@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Chau Chin Yiu. All rights reserved.
 //
 
-#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+#define IS_IPHONE_5   ( double )[ [ UIScreen mainScreen ] bounds ].size.width >= ( double )568
 
 #define IS_IPHONE_5B ( ( ( double )[ [ UIScreen mainScreen ] bounds ].size.height / ( double )[ [ UIScreen mainScreen ] bounds ].size.width  ) > 1.6 )
 

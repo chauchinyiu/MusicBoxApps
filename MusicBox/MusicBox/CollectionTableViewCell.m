@@ -36,7 +36,7 @@
     if(IS_IPHONE_5){
         offset = 44.0f;
     }
-    _priceText = [[UILabel alloc] initWithFrame:CGRectMake(25+offset, 20, 85, 20)];
+    _priceText = [[UILabel alloc] initWithFrame:CGRectMake(25+offset, 30, 85, 20)];
     _priceText.text = text;
      _priceText.textColor = [UIColor blackColor];
     _priceText.backgroundColor = [UIColor clearColor];
